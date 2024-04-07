@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+      
+        .calculator {
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          width: 300px;
+        }
+      
+        .calculator input[type="text"] {
+          width: 75%;
+          padding: 10px;
+          margin-bottom: 10px;
+          font-size: 18px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+        }
+      
+        .calculator button {
+          width: 50px;
+          height: 50px;
+          font-size: 18px;
+          margin: 5px;
+          border: none;
+          border-radius: 3px;
+          background-color: #007bff;
+          color: #fff;
+          cursor: pointer;
+        }
+      
+        .calculator button:hover {
+          background-color: #0056b3;
+        }
+      
+        .calculator button.clear {
+          background-color: #dc3545;
+        }
+      
+        .calculator button.clear:hover {
+          background-color: #bd2130;
+        }
+      
+        .calculator button.equal {
+          background-color: #28a745;
+        }
+      
+        .calculator button.equal:hover {
+          background-color: #218838;
+        }
+        .bottom{
+            margin-top: 450px;
+        }
+        .button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 5px 10px;
+    background-color: #105e24;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #1ec254;
+  }
+      </style>
+</head>
+<body>
+    
+    <div class="calculator">
+        <input type="text" id="display">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>+</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>*</button>
+        <button>0</button>
+        <button class="clear">C</button>
+        <button class="equal">=</button>
+        <button>/</button>
+        
+      </div>
+    <div class="bottom">
+        <a href="index.html" class="button">Previous Assignment</a>
+    </div>
+
+</body>
+</html>
